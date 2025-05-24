@@ -1,0 +1,316 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  body {
+    background-color: #1e1e1e;
+    color: #fff;
+  }
+  
+  /* Header */
+  header {
+    background-color: #121212;
+    padding: 2rem 1rem;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  header .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  header img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 1rem;
+  }
+  
+  header h1 {
+    font-size: 2rem;
+  }
+  
+  header h2 {
+    font-weight: 300;
+    font-size: 1.2rem;
+    color: #aaa;
+    margin-bottom: 1rem;
+  }
+  
+  header nav a {
+    color: #00bcd4;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    transition: 0.3s;
+  }
+  
+  header nav a:hover {
+    background-color: #00bcd4;
+    color: #121212;
+  }
+  
+  /* Sobre mim */
+  .sobre {
+    background-image: url('assets/img/plano-de-fundo-de-programacao-com-pessoa-trabalhando-com-codigos-no-computador_23-2150010125.avif');
+    background-size: cover;
+    background-position: center;
+    padding: 4rem 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .sobre .content {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 2rem;
+    border-radius: 15px;
+    max-width: 700px;
+    backdrop-filter: blur(5px);
+  }
+  
+  .sobre h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+  
+  .sobre p {
+    line-height: 1.6;
+    margin-bottom: 1rem;
+    text-align: justify;
+  }
+
+  /*Habilidades*/
+
+   .habilidades {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+  h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    margin-top: 30px;
+  }
+
+  p{
+    text-align: center;
+  }
+
+  .habilidades p{
+    text-align: center;
+    
+
+  }
+  .habilidades {
+    padding: 2rem;
+    text-align: center;
+    background-color: #222;
+    border-radius: 15px;
+    margin: 2rem auto;
+    width: 90%;
+    max-width: 800px;
+    color: white;
+    margin-bottom: 40px;
+  }
+
+  /*Icones*/
+  
+  .icones {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 30px;
+    flex-wrap: wrap;
+  }
+  
+  .icone {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 120px;
+  }
+  
+  .icone img {
+    width: 60px;
+    height: auto;
+    max-width: 100px;
+    object-fit: contain;
+    margin-bottom: 0.5rem;
+    transition: transform 0.3s ease;
+  }
+  
+  .icone img:hover {
+    transform: scale(1.1);
+  }
+  
+  .icone p {
+    font-size: 1rem;
+    color: white;
+    text-align: center;
+  }
+  .html{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 120px;
+  }
+  .html p {
+  font-size: 1rem;
+    color: white;
+    text-align: center;
+  } 
+
+  .html img{
+    height: 85px;
+    object-fit: contain;
+    margin-bottom: 0.5rem;
+    transition: transform 0.3s ease;
+
+  }
+
+  .html img:hover {
+    transform: scale(1.1);
+  }
+
+  .java{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 120px;
+  }
+  .java p {
+  font-size: 1rem;
+    color: white;
+    text-align: center;
+  } 
+
+  .java img{
+    height: 90px;
+    transition: transform 0.3s ease;
+  }
+  .java img:hover {
+    transform: scale(1.1);
+  }
+
+  /*Projetos*/
+
+  .projetos {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  .projetos1{
+    margin-top: 100px;
+  }
+
+  .projeto {
+    background-color: white;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    background-color: #121212;
+    margin-top: 20px;
+    margin-bottom: 50px;
+  }
+  
+  .projeto button{
+    height: 30px;
+    width: 100px;
+    margin-top: 20px;
+    color: #00bcd4;
+    text-decoration: none;
+    font-weight: 500;
+    border-radius: 6px;
+    transition: 0.3s;
+    background-color: #1d1c1cdc;
+    border: none;
+    
+    
+     
+    &:hover {
+      background-color: #00bcd4;
+      color: #121212;
+  }
+ }
+
+  .projeto img {
+    max-width: 100%;
+    border-radius: 5px;
+  }
+
+    /*Contatos*/
+
+
+  .contatos{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 5rem;
+    margin-top: 3rem;
+    flex-wrap: wrap;
+  }
+
+  .contato p{
+    font-size: 1rem;
+    color: white;
+    text-align: center;
+  }
+
+  .contato img{
+    transition: transform 0.3s ease;
+  }
+
+  .contato img:hover {
+    transform: scale(1.1);
+  }
+
+  footer{
+    background-color: #121212;
+    height: 150px;
+    margin-top: 50px;
+  }
+  footer P{
+    text-align: center;
+    padding-top:70px;
+  }
+
+
+  /* Responsividade */
+  @media (max-width: 768px) {
+    header h1 {
+      font-size: 1.5rem;
+    }
+  
+    .sobre .content {
+      padding: 1rem;
+    }
+  
+    .sobre h2 {
+      font-size: 1.5rem;
+    }
+    .projetos{
+        flex-direction: column;
+        
+    }
+    .projeto{
+        margin: 0 10px 0 10px;
+    }
+
+    .pContato{
+      margin: 40px 20px 0px 20px;
+    }
+  }
+  

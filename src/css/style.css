@@ -1,0 +1,89 @@
+body{
+    background-color: #1e1e1e;
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+h1{
+    margin-top: 30px;
+    text-align: center;
+}
+
+.conteiner{
+    text-align: center;
+}
+
+.conteiner img{
+    border-radius: 0px;
+    margin-top: 50px;
+    width: 900px;
+    height: 450px;
+}
+
+.lista{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.lista p{
+    margin-right: 350px;
+}
+
+ul{
+        list-style-position: outside;
+        text-align: left;
+}
+
+button{
+    background-color: #1e1e1e;
+    color: #00bcd4;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    transition: 0.3s;
+    border: none;
+    margin-top: 20px;
+    margin-bottom: 30px;
+
+
+    &:hover {
+        background-color: #00bcd4;
+        color: #121212;
+      }
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    header h1 {
+      font-size: 1.5rem;
+    }
+  
+    .conteiner {
+      padding: 1rem;
+      text-align: center;
+      justify-content: center;
+    }
+  
+    .conteiner h1{
+      font-size: 1.5rem;
+    }
+    .conteiner img {
+        margin: 0;
+        width: 350px;
+        height: 250px;
+        margin-top: 50px;
+        
+    }
+    .conteiner p{
+        width: 300px;
+       margin-left: 35px;
+    }
+    .lista p{
+   margin-right: 200px;
+    
+}
+  }
